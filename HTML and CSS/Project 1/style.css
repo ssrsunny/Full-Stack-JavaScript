@@ -25,7 +25,16 @@
 }
 
 .listbar {
+  display: inline-flex;
+}
+
+.mylist {
   list-style: none;
+  display: inline-flex;
+}
+
+li {
+  padding: 0px 50px;
 }
 
 .content {
