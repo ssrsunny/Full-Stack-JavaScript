@@ -2,3 +2,33 @@ body {
   background-color: black;
   color: white;
 }
+
+.banner {
+  background-image: url("./assets/bg.png");
+  width: auto;
+  height: 100vh;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.btn {
+  color: white;
+  background-color: #bb23c5;
+}
