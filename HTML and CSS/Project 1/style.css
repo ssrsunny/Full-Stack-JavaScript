@@ -22,15 +22,16 @@
 
 .navbar {
   padding: 48px 80px;
+  display: flex;
 }
 
 .listbar {
-  display: inline-flex;
+  /* display: flex; */
 }
 
 .mylist {
   list-style: none;
-  display: inline-flex;
+  display: flex;
 }
 
 li {
@@ -53,6 +54,8 @@ li {
 
 .image {
   float: right;
-  width: 50%;
-  height: 50%;
+}
+
+.banner-container {
+  display: flex;
 }
