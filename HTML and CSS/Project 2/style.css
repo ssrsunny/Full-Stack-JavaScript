@@ -1,10 +1,12 @@
 body {
   background-color: black;
   color: white;
+  margin: 10px;
 }
 
 .banner {
   background-image: url("./assets/bg.png");
+  background-size: cover;
   width: auto;
   height: 100vh;
 }
@@ -17,7 +19,7 @@ body {
 
 .navbar-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .banner-container {
@@ -31,4 +33,14 @@ h1 {
 .btn {
   color: white;
   background-color: #bb23c5;
+}
+
+.logo {
+  width: 60%;
+  margin: 16px;
+  margin-left: 40px;
+}
+
+.list-item {
+  padding: 10px 40px;
 }
