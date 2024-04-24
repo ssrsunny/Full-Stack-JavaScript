@@ -26,10 +26,6 @@ body {
   display: flex;
 }
 
-.listbar {
-  /* display: flex; */
-}
-
 .mylist {
   list-style: none;
   display: flex;
