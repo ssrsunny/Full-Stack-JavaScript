@@ -3,13 +3,20 @@ body {
   color: white;
   margin: 10px;
   font-family: poppins;
+  height: 150vh;
+}
+
+.lines {
+  margin-top: 10px;
+  height: 48px;
+  border: 1px solid grey;
 }
 
 .banner {
   background-image: url("./assets/bg.png");
   background-size: cover;
   width: auto;
-  height: 100vh;
+  height: 150vh;
 }
 
 .list {
@@ -21,7 +28,7 @@ body {
 
 .navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .banner-container {
@@ -46,27 +53,48 @@ p {
   background-color: #bb23c5;
   padding: 10px 30px;
   border: none;
-  border-radius: 2em;
+  border-radius: 13px;
 }
 
+.nav-button {
+  margin-left: 120px;
+}
+
+.logo-div {
+  margin-top: 5px;
+}
 .logo {
-  width: 60%;
+  width: 50%;
   margin: 16px;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 .list-item {
   padding: 10px 40px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .nav-button {
+  height: 40px;
   margin-top: 16px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .banner-button {
+  margin-top: 20px;
   font-size: 20px;
+}
+
+.btn:hover {
+  transform: scale(1.08);
+  transition: transform 0.2s ease-in-out;
+  color: bisque;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  color: bisque;
 }
 
 /* Font */
