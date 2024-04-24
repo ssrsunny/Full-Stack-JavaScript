@@ -1,0 +1,45 @@
+body {
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-list {
+  border: 2px solid gold;
+  width: 50%;
+  padding-left: 10%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.search {
+  border: 2px solid black;
+  margin-top: 16px;
+  margin-left: 50px;
+  height: 20px;
+  text-align: center;
+}
+
+.image-container {
+  border: 2px solid red;
+}
+
+.myimage {
+  padding-top: 80px;
+  padding-left: 80px;
+  width: 300px;
+  height: 400px;
+}
+
+.mesh {
+  z-index: -1;
+
+  padding-right: -40px;
+  height: 300px;
+  width: 300px;
+}
