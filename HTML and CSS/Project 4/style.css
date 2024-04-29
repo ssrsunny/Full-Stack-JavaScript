@@ -1,0 +1,66 @@
+body {
+  /* border: 2px solid gold; */
+  background-color: #f9f5ed;
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  margin: 20px 30px;
+  padding-top: 20px;
+}
+
+.logo {
+  padding-left: 40px;
+  margin: 0;
+  padding-bottom: 0px;
+}
+
+.btn1 {
+  color: white;
+  background-color: green;
+}
+
+.container1 {
+  width: 30%;
+  padding-top: 150px;
+  /* border: 2px solid red; */
+}
+.container2 {
+  /* border: 2px solid green; */
+}
+
+.img1,
+.img2,
+.img3 {
+  padding: 10px;
+}
+
+.img1 {
+  margin-top: 30px;
+  height: 250px;
+  width: 210px;
+}
+
+.img2 {
+  margin-top: 30px;
+  height: 260px;
+  width: 200px;
+}
+
+.img3 {
+  height: 210px;
+  width: 400px;
+}
+
+h2 {
+  font-weight: 700;
+
+  font-size: 40px;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 14px;
+}
